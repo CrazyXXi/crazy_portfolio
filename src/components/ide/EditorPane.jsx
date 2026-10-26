@@ -21,6 +21,8 @@ export default function EditorPane({ fileId, onOpenFile, onRun }) {
       {fileId === 'education' && <EducationMd />}
       {fileId === 'healthyguard' && <ProjectMd slug="healthyguard" />}
       {fileId === 'equinox' && <ProjectMd slug="equinox" />}
+      {fileId === 'ponyo' && <ProjectMd slug="ponyo" />}
+      {fileId === 'insurance' && <ProjectMd slug="insurance" />}
       {fileId === 'contact' && <ContactPy onRun={onRun} />}
       {fileId === 'references' && <ReferencesPy />}
     </div>

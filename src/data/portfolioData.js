@@ -65,6 +65,32 @@ export const PROJECTS = [
       "Conception d'un système intelligent dédié à l'analyse des réunions de travail afin d'améliorer l'efficacité des collaborations en groupe.",
     status: 'phare',
   },
+  {
+    slug: 'ponyo',
+    name: 'Ponyo',
+    subtitle: 'Assistant conversationnel (chatbot) avec interface de chat',
+    links: [
+      { label: 'Démo', href: 'https://ponyo-gamma.vercel.app' },
+      { label: 'GitHub', href: 'https://github.com/CrazyXXi/Ponyo' },
+    ],
+    tags: ['React', 'Vite', 'Chatbot', 'Markdown'],
+    description:
+      "Application de chat conversationnel : interface React avec rendu Markdown des réponses et affichage progressif façon streaming, connectée à une API de chat hébergée.",
+    status: 'projet',
+  },
+  {
+    slug: 'insurance',
+    name: "Prédiction de primes d'assurance",
+    subtitle: 'Projet collaboratif avec StarGeek06',
+    links: [
+      { label: 'GitHub', href: 'https://github.com/StarGeek06/react-insurance-app' },
+      { label: 'Démo', href: 'https://react-insurance-app.onrender.com' },
+    ],
+    tags: ['React', 'FastAPI', 'Scikit-learn', 'Random Forest', 'Assurance'],
+    description:
+      "Application full-stack (React + FastAPI) qui prédit le montant d'une prime d'assurance santé à partir de l'âge, l'IMC, le nombre d'enfants, le statut fumeur et la région, via un modèle Random Forest.",
+    status: 'projet',
+  },
 ]
 
 export const ACCOMPLISHMENTS = [

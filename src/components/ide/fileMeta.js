@@ -12,4 +12,6 @@ export const FILE_META = {
   education: { name: 'education.md', icon: FileText, color: 'text-ed-blue' },
   healthyguard: { name: 'healthyguard.md', icon: FileText, color: 'text-ed-blue' },
   equinox: { name: 'equinox.md', icon: FileText, color: 'text-ed-blue' },
+  ponyo: { name: 'ponyo.md', icon: FileText, color: 'text-ed-blue' },
+  insurance: { name: 'insurance.md', icon: FileText, color: 'text-ed-blue' },
 }

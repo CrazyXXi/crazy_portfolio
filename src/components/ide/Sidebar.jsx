@@ -130,6 +130,18 @@ export default function Sidebar({ activeFileId, onSelectFile, className = '' }) 
                   active={activeFileId === 'equinox'}
                   onSelect={onSelectFile}
                 />
+                <FileRow
+                  id="ponyo"
+                  depth={2}
+                  active={activeFileId === 'ponyo'}
+                  onSelect={onSelectFile}
+                />
+                <FileRow
+                  id="insurance"
+                  depth={2}
+                  active={activeFileId === 'insurance'}
+                  onSelect={onSelectFile}
+                />
               </>
             )}
           </>
