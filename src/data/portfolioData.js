@@ -45,14 +45,15 @@ export const PROJECTS = [
   {
     slug: 'healthyguard',
     name: 'HealthyGuard',
-    subtitle: "Audit d'éthique et de fiabilité des chatbots de santé",
+    subtitle: "Audit de gouvernance et d'éthique pour chatbots de santé",
     links: [
-      { label: 'PyPI', href: '#' },
-      { label: 'GitHub', href: '#' },
+      { label: 'PyPI', href: 'https://pypi.org/project/healthy-guard/' },
+      { label: 'GitHub', href: 'https://github.com/CrazyXXi/HealthyGuard' },
+      { label: 'Démo', href: 'https://healthy-guard.vercel.app' },
     ],
-    tags: ['Python', 'Open Source', 'MIT', 'v0.1.1', 'Santé'],
+    tags: ['Python', 'Open Source', 'MIT', 'PyPI v0.1.1', 'IA Éthique'],
     description:
-      "Package Python open source (v0.1.1, licence MIT) qui permet aux développeurs et aux acteurs techniques de la santé de vérifier que leurs chatbots santé sont éthiques et fiables avant publication.",
+      "Audite un chatbot de santé avant sa mise en ligne, en boîte noire : des centaines de questions (urgences, données personnelles, profils variés, pièges subtils) sont posées, les réponses sont jugées, puis une décision est rendue (publiable, à relire, bloqué) sur 6 piliers — sécurité clinique, transparence, équité, confidentialité, consentement, traçabilité — avec statistiques et recommandations prêtes à l'emploi.",
     status: 'phare',
   },
   {
